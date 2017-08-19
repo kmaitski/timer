@@ -33,7 +33,7 @@ int	addMinutesInFile(int flag)
 {
 	char 	*fileString;
 	int		fd;
-	char	**arrayOfNumericalValues;
+	char	**arrayOfNumericalValues = NULL;
 	int		minutesWorked = 0;
 
 	if (flag == 1) {
