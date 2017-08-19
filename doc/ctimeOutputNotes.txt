@@ -1,0 +1,16 @@
+012345678901234567890123
+Mon Aug  7 15:28:45 2017
+
+3 for the day of the week: 0 - 2
+1 space: 3
+3 for month: 4 - 6
+2 for space: 7 - 8
+1 for day of the month: 9
+1 for space: 10
+2 for hour of the day: 1 - 2
+1 for seperation of hours and minutes: 3
+2 for mintues in the hour: 4 - 5
+1 for seperation of minutes and seconds: 6
+2 for seconds in the minute: 7 - 8
+1 for space: 9
+4 for year: 0 - 3
