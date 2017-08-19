@@ -91,9 +91,13 @@ static void	seperateCode(char *code, FILE *dailyMinutesWorkedHouse, FILE *dailyM
 
 	if (keyCharacter == 'S' || keyCharacter == 's') {
 		fprintf(dailyMinutesWorkedSchool, "%s ", ++code);
+		fclose(dailyMinutesWorkedHouse);
+		fclose(dailyMinutesWorkedSchool);
 	}
 	else if (keyCharacter == 'H' || keyCharacter == 'h') {
 		fprintf(dailyMinutesWorkedHouse, "%s ", ++code);
+		fclose(dailyMinutesWorkedHouse);
+		fclose(dailyMinutesWorkedSchool);
 	}
 	 else if (keyCharacter == 'N' || keyCharacter == 'n') {
 		fileSystem(++code);
